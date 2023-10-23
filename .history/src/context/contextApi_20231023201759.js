@@ -22,9 +22,9 @@ export const AppContext = (props) => {
         });
     };
 
-    return (
-        <Context.Provider
-            value={{
+    return ( <
+        Context.Provider value = {
+            {
                 loading,
                 setLoading,
                 searchResults,
@@ -32,9 +32,9 @@ export const AppContext = (props) => {
                 setSelectedCategory,
                 mobileMenu,
                 setMobileMenu,
-            }}
-        >
-            {props.children}
-        </Context.Provider>
+            }
+        } >
+        { props.children } <
+        /Context.Provider>
     );
 };
